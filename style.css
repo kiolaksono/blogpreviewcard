@@ -13,7 +13,7 @@ body{
     width: 100%;
     
 }
-
+/* 
 .wrapper{
     display: flex;
     flex-direction: column;
@@ -21,13 +21,12 @@ body{
     justify-content: center;
     height: 100vh;
 
-}
+} */
 
 .card{
     background-color: hsl(0, 0%, 100%);
-    width: 336px;
-    padding: 20px;
     display: flex;
+    width: 336px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -37,7 +36,7 @@ body{
 }
 
 .card:hover{
-    width: 330px;
+    width: 336px;
     box-shadow: 10px 15px black;
     cursor: pointer;
 }
